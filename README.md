@@ -12,36 +12,72 @@ The **Blockchain-Based AI-Powered Voting System** is a secure, transparent, and 
 - **Real-time Vote Counting**: Live vote tallying with AI-generated election summaries.
 - **Decentralized Voting**: Ensures tamper-proof elections using smart contracts.
 
-## 🛠 Tech Stack
+---
 
-- **Frontend**: React.js, TailwindCSS, Axios, Recharts
-- **Backend**: Node.js, Express.js, MongoDB
-- **AI**: OpenAI API, PromptRepo (Optional)
-- **Blockchain**: Smart Contracts (Ethereum/Polygon)
+## 🏗️ What Has Been Built Till Now?
 
-## 🔥 Installation
+### ✅ Step 1: Voter Registration & Authentication
+- Users register with **Aadhaar/Voter ID, email, and wallet address**.
+- Backend **checks if the voter exists in the database**.
+- **Auto-approve if valid, reject if not found**.
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/blockchain-voting-system.git
-    ```
+📌 **Tech Used:** MongoDB, Express.js, JWT Authentication
 
-2. Install dependencies:
-    ```bash
-    cd blockchain-voting-system
-    npm install
-    ```
+---
 
-3. Configure MongoDB for storing voter information:
-    - Set up your MongoDB database.
-    - Update the MongoDB URI in the config file.
+### ✅ Step 2: Voter Approval System (Admin Verification)
+- Admins can **view pending voters and approve/reject them**.
+- Currently, this step is **automated based on voter database validation**.
+- **Voter status is stored in MongoDB**.
 
-4. Run the system:
-    ```bash
-    npm start
-    ```
+📌 **Tech Used:** Node.js, MongoDB
 
-## 🧠 AI Use Cases Implemented
+---
+
+### ✅ Step 3: Voting Interface & Secure Vote Casting
+- Voters **log in, see a list of candidates, and cast their vote**.
+- The system ensures:
+  - ✅ **Only approved voters can vote**.
+  - ✅ **One vote per voter** (prevents duplicate voting).
+  - ✅ Votes are **stored in MongoDB** (for now, before blockchain integration).
+
+📌 **Tech Used:** React.js, Axios, Express.js
+
+---
+
+### ✅ Step 4: Live Voting Results (Prototype Complete)
+- Votes are **counted in real-time**.
+- The **results page displays a live bar chart** using **Recharts**.
+- This completes our **full-stack prototype**, making it **fully functional without blockchain for now**.
+
+📌 **Tech Used:** MongoDB Aggregation, Recharts
+
+---
+
+### ✅ Step 5: Blockchain Integration (Ongoing)
+## 🛠 Overview of What We Did Till Now
+
+1️⃣ **Set Up Hardhat** → Installed Hardhat to write and deploy smart contracts.  
+2️⃣ **Wrote a Smart Contract (`Voting.sol`)** → Created functions to add candidates, vote, and get results.  
+3️⃣ **Compiled the Contract** → Checked for errors and generated the ABI (interface).  
+4️⃣ **Deployed on Local Blockchain** → Used Hardhat Network to deploy the contract.  
+5️⃣ **Interacted with the Contract** →  
+   ✅ **Added a candidate (`Alice`)**  
+   ✅ **Fetched candidate details from blockchain**  
+
+---
+
+## 🧠 Key Concepts You Have Used
+
+- **Smart Contract** → Like a backend stored on the blockchain.  
+- **Hardhat** → A tool for writing, testing, and deploying contracts.  
+- **Blockchain Storage** → Instead of a database, we store votes on-chain.  
+- **Transactions** → When you add a candidate or vote, a transaction is sent to the blockchain.  
+
+
+---
+
+## 🧠 AI Use Cases Implemented (Next Phase)
 
 This project implements at least **three AI use cases**:
 1. **Search** → AI-powered voter & candidate search.
@@ -49,11 +85,12 @@ This project implements at least **three AI use cases**:
 3. **Extraction** → Auto-filling voter details from Aadhaar/Voter ID.
 4. **Generation (Upcoming)** → AI-generated election summaries & reports.
 
-## ***Promptrepo*** may be used to structure unstructured voter data from emails, chats, and Google Sheets.
+**Promptrepo** may be used to structure unstructured voter data from emails, chats, and Google Sheets.
+
+---
 
 
 
 ## ⚖️ License
 
-This project is licensed under the **MIT License**.(on progress)
-
+This project is licensed under the **MIT License**.(on process)
