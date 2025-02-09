@@ -2,6 +2,13 @@
 
 The **Blockchain-Based AI-Powered Voting System** is a secure, transparent, and decentralized e-voting platform. It integrates **AI** to enhance search, classification, extraction, and generation use cases while leveraging **blockchain technology** for secure vote storage. This ensures all votes are immutable, verifiable, and tamper-proof.
 
+client- https://securevote-silk.vercel.app/   on vercel
+
+server- https://securevote.onrender.com   on render
+
+use id=admin@gmail.com
+use pw=admin   to login
+
 ![Voting System Screenshot](https://media-hosting.imagekit.io//8817bdec60e54a29/screenshot_1738693022423.png?Expires=1833301026&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=yQuUmolRZW2F84LDT5wzOFFEMdlToOirQJJlUTOpMvv8P8TgnEUVPQcXB4sUXOZSGe2StXGe3WMzpBikDX-rbsIUeVdLWMe3vrLmq23q5-R37jlUcdj3azwz3fyYvF95YkdLQt-FVwVOxxtSXgioIo5IwxcVZfkaAr-OayyncLwbXrydcCIqlXe9ZQAKJTYo0C59dgJ3pCVg7u77hnOblswzdVWjkpMyTzg1-V9uUt8w2lRr3dWP6fKpXLr2Ol6pOz0tGQaSCF~6QlGBDiEz8bngdwSwywGITFlWCUtgkNJxnf1JkmRdys7k6IUlJ7eCorj6RBIh1PADqgPWY4mVWg__)
 
 ## 🚀 Features
